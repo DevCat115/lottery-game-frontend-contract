@@ -1,0 +1,95 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\working\\2024-02-29-LOTTERY-GAME\\2024-02-29-LOTTERY-GAME\\Contract\\contracts\\ERC20.sol": {
+      "lastModificationDate": 1721220468167,
+      "contentHash": "b98cb472a6cd5f03085c455544b71712",
+      "sourceName": "contracts/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8"
+      ],
+      "artifacts": [
+        "Context",
+        "ERC20",
+        "Ownable",
+        "SafeMath"
+      ]
+    },
+    "D:\\working\\2024-02-29-LOTTERY-GAME\\2024-02-29-LOTTERY-GAME\\Contract\\contracts\\lottery.sol": {
+      "lastModificationDate": 1721253226832,
+      "contentHash": "f28c937627e1f8509d274d790501f2ed",
+      "sourceName": "contracts/lottery.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20",
+        "ReentrancyGuard",
+        "SafeMath",
+        "lottery"
+      ]
+    }
+  }
+}
